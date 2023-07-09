@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Lock Screen"
+rootProject.name = "lock-screen"
 include(":app")

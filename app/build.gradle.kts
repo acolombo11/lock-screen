@@ -12,21 +12,13 @@ android {
         minSdk = 21
         targetSdk = 33
         versionCode = 1
-        versionName = "1.0"
-
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        vectorDrawables {
-            useSupportLibrary = true
-        }
+        versionName = "1.0.0"
     }
 
     buildTypes {
         release {
-            isMinifyEnabled = false
-            proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
-            )
+            isMinifyEnabled = true
+            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"))
         }
     }
     compileOptions {
@@ -35,9 +27,6 @@ android {
     }
     kotlinOptions {
         jvmTarget = "1.8"
-    }
-    composeOptions {
-        kotlinCompilerExtensionVersion = "1.4.3"
     }
     packaging {
         resources {
