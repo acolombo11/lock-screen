@@ -26,5 +26,4 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/')
         with:
           files: |
-            app/build/outputs/apk/base/release/app-base-release.apk
-            app/build/outputs/apk/unlocked/release/app-unlocked-release.apk
+            app/build/outputs/apk/release/app-release.apk
