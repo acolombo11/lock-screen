@@ -1,4 +1,4 @@
-<p align="center"><img src="/docs/cover-github.png" width="640" alt="lock-screen"></p>
+<p align="center"><a href=""><img src="/docs/cover-github.png" width="640" alt="lock-screen"></a></p>
 <p align="center">Android app to act as a shortcut to lock the screen.</p>
 <p align="center">Place it on your home-screen and lock your screen with one tap.</p>
 
